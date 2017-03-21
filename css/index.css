@@ -1,0 +1,244 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;}
+a{color:#172c45;text-decoration:none} 
+a:hover{color:#cd0200;text-decoration:underline} 
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle;cursor: pointer;} 
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.ind{text-indent:2em} 
+.ind10{text-indent:10px;}
+.noborder{border:0;}
+
+.all{
+	width: 1265px;
+	margin: 0 auto;
+	height: 5000px;
+}
+.all .header img{
+	margin: 0;
+	cursor: pointer;
+}
+.all .header .headnav{
+	height: 37px;
+	width: 1265px;
+	background: rgb(241,241,241);
+	position: relative;
+}
+.all .header .headnav .nav-ul{
+	float: right;
+	margin-right: 62px;
+	margin-top: 10px;
+}
+.all .header .headnav .nav-ul li{
+	float: left;
+	padding: 0 18px;
+	
+}
+.all .header .headnav .nav-ul li .a1{
+	color:#cd0200;
+}
+.all .header .headnav .nav-ul li:first-child{
+	border-right: 1px solid #bbb;
+}
+.all .header .head-search{
+	height: 110px;
+	width: 1200px;
+	margin: 0 auto;
+	/*background: #EEEBED;*/
+}
+.all .header .head-search .head-tps img{
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin-top:15px ;
+}
+.all .header .head-search .head-138 img{
+	height: 19px;
+	width: 110px;
+	margin-top:45px ;
+	/*float: left;*/
+}
+.all .header .head-search .head-138{
+	float: left;
+	margin-left: 5px;
+}
+.all .header .head-search .header-cart{
+	position: relative;
+	float: right;
+	top: 35px;
+/*	margin-right: 30px;*/
+	height: 42px;
+	width: 120px;
+	background: #EE4242;
+	border-radius: 3px;
+}
+.all .header .head-search .header-cart:hover{
+	box-shadow: 2px 5px 5px #eee;
+}
+.all .header .head-search .header-cart i{
+	position: relative;
+	width: 16px;
+	height: 15px;
+	background: #eee;
+	/*background: url(ico-);*/
+}
+.all .header .head-search .header-cart span{
+	position: absolute;
+    top: 15px;
+    left: 30px;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 10px 10px 10px 0;
+    line-height: 8px;
+    color: #fff;
+    background-color: #ee4242;
+    font-size: 16px;
+    font-weight: bold;
+}
+.all .header .head-search .search-text{
+	width: 760px;
+	height: 40px;
+	border: 1px solid #EE4242;
+	border-radius: 3px;
+	background: #FFF;
+	float: right;
+	margin-right: 30px;
+	position: relative;
+	top: 35px;
+}
+.all .header .head-search .search-text .search-input{
+	width: 692px;
+	float: left;
+	margin: 10px;
+	border: none;
+	font-size: 14px;
+}
+
+.all .banner{
+	height: 492px;
+	width:1265px;
+	position: relative;
+}
+.all .banner .banner-nav{
+	height: 42px;
+	background: rgb(30,30,30);
+	
+}
+.all .banner .banner-nav ul{
+	position: relative;
+	
+}
+.all .banner .banner-nav ul li{
+	float: left;
+	color: white;
+	font: 16px "微软雅黑";
+	height: 32px;
+	width: 126px;
+	text-align: center;
+	padding-top: 10px;
+}
+.all .banner .banner-nav ul li:hover{
+	background: rgb(64,64,64);
+}
+.all .banner .banner-nav ul .banner-nav-first-li{
+	background: #EE4242;
+	width: 160px;
+	margin-left: 20px;
+}
+.all .banner .banner-nav ul .banner-nav-first-li:hover{
+	background: #EE4242;
+}
+.all .banner .banner-img{
+	width: 1265px;
+	height: 450px;
+	overflow: hidden;
+	position: relative;
+}
+.all .banner .banner-img .lbt{
+	/*position: relative;*/
+	/*overflow: hidden;*/
+}
+.all .banner .banner-img .lbt li{
+	position: absolute;
+	text-align: center;
+	margin-left: -320px;
+}
+.all .banner .banner-img .banner-list{
+	position: absolute;
+	top: 400px;
+	margin-left: 480px;
+	background: rgba(0,0,0,.1);
+    border-radius: 14px;
+    padding: 5px 10px;
+}
+.all .banner .banner-img .banner-list li{
+	float: left;
+    display: inline-block;
+    vertical-align: top;
+    padding: 6px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.8);
+    cursor: pointer;
+}
+.all .banner .banner-img .banner-before,.banner-after{
+	position: absolute;
+ /*   z-index: 3;*/
+    top: 50%;
+    margin-top: -40px;
+    left: 50px;
+    width: 30px;
+    height: 65px;
+    text-align: center;
+    background: #000;
+    cursor: pointer;
+    opacity: .5;
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+    padding-top: 15px;
+    border-radius: 3px;
+}
+.all .banner .banner-img .banner-after{
+	left: 1200px;
+}
+
+
+.all .content{
+	clear: both;
+	background: greenyellow;
+	position: relative;
+	overflow: hidden;
+}
+.all .content .content-list ul{
+	margin: 50px 0 40px 0;
+}
+.all .content .content-list ul li{
+	width: 175px;
+	height: 90px;
+	float: left;
+	margin: 0 70px;
+	position: relative;
+}
+.all .content .content-list ul li s{
+	display: inline-block;
+	height: 53px;
+	width: 49px;
+	background: url(../img/ico_service.png) no-repeat ;
+}
+.all .content .content-list ul li .s1{
+	background: url(../img/ico_service.png) no-repeat -72px 0px;
+}
+.all .content .content-list ul li b{
+	position: absolute;
+	top: 10px;
+	left: 60px;
+	font-size: 16px;
+}
+.all .content .content-list ul li p{
+	position: absolute;
+	top: 30px;
+	left: 60px;
+}

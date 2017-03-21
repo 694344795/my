@@ -1,0 +1,22 @@
+.log-ban{
+	height: 600px;
+	width: 1265px;
+	background: url(../img/reg_bg.gif) no-repeat;
+}
+.log-ban .log-right{
+	width: 380px;
+	height: 340px;
+	background-color: white;
+	position: relative;
+	top: 120px;
+	left: 847px;
+}
+.log-ban .log-right h3{
+    height: 45px;
+    /*line-height: 45px;*/
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+    font-weight: bold;
+    padding: 44px 0;
+}
